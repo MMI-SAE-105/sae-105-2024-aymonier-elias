@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <title>Cinémanix</title>
+</head>
+
+<body>
+    <header class="header container">
+        <a href="/">
+            <img class="header__logo" src="" alt="">
+        </a>
+        <button class="header__menuBtn menuBtn" aria-expanded="false" aria-label="Ouvrir le menu">
+            <span class="menuBtn-bar"></span>
+        </button>
+
+        <nav class="header__nav nav" aria-hidden="true">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/about.svg"
+                            alt="">Information</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/calendrier.svg"
+                            alt="">Programmation</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/ticket.svg"
+                            alt="">Billetterie</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/livre.svg" alt="">À Propos</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/mail.svg" alt="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__hero hero">
+            <h1 class="hero__title">Cinémagny</h1>
+        </div>
+    </header>
+
+    <section class="billetterie container">
+        <a class="billetterie__link" href="">
+            Billetterie
+            <img src="assets/icons/ticket.svg" alt="">
+        </a>
+        <ul class="billetterie__liste">
+            <li class="billetterie__item">
+                <a class="billetterie__link billetterie__card" href="">
+                    <h3>Pass 2 premiers jours</h3>
+                    <p>Du 12 au 14 Novembre</p>
+                    <h3>25 €</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </a>
+            </li>
+            <li class="billetterie__item">
+                <a class="billetterie__link billetterie__card" href="">
+                    <h3>Pass 2 derniers jours</h3>
+                    <p>Du 14 au 16 Novembre</p>
+                    <h3>28 €</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </a>
+            </li>
+            <li class="billetterie__item">
+                <a class="billetterie__link billetterie__card" href="">
+                    <h3>Pass 4 jours</h3>
+                    <p>Du 12 au 16 Novembre</p>
+                    <h3>45 €</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="aPropos container">
+        <h2></h2>
+        <p class="aPropos__texte"></p>
+        <a class="aPropos__link" href="">
+            Plus d'Information
+            <img src="assets/icons/fleche.svg" alt="">
+        </a>
+    </section>
+
+    <section class="programmation container">
+        <h2>Programmation</h2>
+        <div class="programmation__slider slider">
+            <h3>Premiers Jours dédier à l'annimation</h3>
+            <div class="slider__img">
+                <ul class="slider__liste">
+                    <li class="slider__item"><img src="assets/img/le voyage de chiiro.png" alt=""></li>
+                    <li class="slider__item"><img src="assets/img/Rectangle 11-1.png" alt=""></li>
+                    <li class="slider__item"><img src="assets/img/étrange noëm de monsieur jacque.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="partenaire container">
+        <ul class="partenaire__slider">
+        </ul>
+    </section>
+
+    <footer class="footer container">
+        <h1 class="footer__title">Cinémagny</h1>
+        <div class="footer__menu">
+            <h2 class="footer__menu-title">Menu</h2>
+            <ul class="footer__menu-liste">
+                <li class="footer__menu-item"><a href="">Mentions Légales</a></li>
+                <li class="footer__menu-item"><a href="">Archive</a></li>
+                <li class="footer__menu-item"><a href="">Contact & Accès</a></li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+            <ul class="footer__contact-title">
+                <li class="footer__contact-liste"><a href="">09 55 64 84 50</a></li>
+                <li class="footer__contact-liste"><a href="">cinémagny@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="footer__media">
+            <ul class="footer__media-liste">
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/svgexport-49.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/ic_baseline-facebook.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/svgexport-47.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/ic_baseline-tiktok.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/mdi_youtube.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -12,9 +12,9 @@
 
     /* font style */
     /* font-style | font-variant | font-weight | font-size | line-height | font-family. */
-    --title-xl: normal normal  800 2rem 110% var(--rajdhani);
-    --title-l: normal normal 500 1.5rem 110% var(--rajdhani);
-    --texte: normal normal 500 0.875rem 130% var(--roboto);
-    --texte-s: italic normal 200 0.75rem 100% var(--roboto);
-    --button: normal normal 600 0.875rem 150% var(--roboto);
+    --title-xl: 800 2rem var(--rajdhani);
+    --title-l: 600 1.5rem var(--rajdhani);
+    --texte: 0.875rem var(--roboto);
+    --texte-s: italic 200 0.75rem var(--roboto);
+    --button: 600 0.875rem var(--roboto);
   }
