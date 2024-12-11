@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- FavIcon -->
-        <link rel="icon" type="image/png" href="assets/icons/logo/favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="assets/icons/logo/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="assets/icons/logo/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/logo/favicon/apple-touch-icon.png" />
-        <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-        <link rel="manifest" href="assets/icons/logo/favicon/site.webmanifest" />
-    
-        <!-- CSS Link -->
-        <link rel="stylesheet" href="src/css/styles.css">
+    <!-- FavIcon -->
+    <link rel="icon" type="image/png" href="assets/icons/logo/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/logo/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/icons/logo/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/logo/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="assets/icons/logo/favicon/site.webmanifest" />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="src/css/styles.css">
 
     <title>Cinémagny - Programmation</title>
 </head>
+
 <body>
     <header class="header container">
         <a href="/">
@@ -28,13 +30,20 @@
 
         <nav class="header__nav nav" aria-hidden="true">
             <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link" href="a_propos.html"><img src="assets/icons/livre.svg" alt="">À Propos</a></li>
-                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/ticket.svg" alt="">Billetterie</a></li>
-                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/films.svg" alt="">Films</a></li>
-                <li class="nav__item"><a class="nav__link" href="programmation.html"><img src="assets/icons/calendrier.svg" alt="">Programmation</a></li>
-                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/profile.svg" alt="">Invité</a></li>
-                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/about.svg" alt="">Infos Pratiques</a></li>
-                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/mail.svg" alt="">Contact</a></li>
+                <li class="nav__item"><a class="nav__link" href="a_propos.html"><img src="assets/icons/livre.svg"
+                            alt="">À Propos</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/ticket.svg"
+                            alt="">Billetterie</a></li>
+                <li class="nav__item"><a class="nav__link" href="films.html"><img src="assets/icons/films.svg" alt="">Films</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="programmation.html"><img
+                            src="assets/icons/calendrier.svg" alt="">Programmation</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/profile.svg" alt="">Invité</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/about.svg" alt="">Infos
+                        Pratiques</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/mail.svg" alt="">Contact</a>
+                </li>
             </ul>
         </nav>
 
@@ -45,42 +54,239 @@
 
     <section class="programmation container">
         <h2>Les films de cette année</h2>
-        <article class="jour1">
+        <article class="filmListe jour1">
             <h3>Filmes d'annimation<br>Jour 1</h3>
-            <div class="jour1__slider slider">
+            <div class="filmListe jour1__slider slider">
                 <ul class="slider__liste">
-                    <li class="slider__item">
-                        <div class="slider__item-film">
-                            <img class="slider__item-img"  src="assets/img/le_voyage_de_chiiro.png" alt="">
-                            <h3 class="slider__item-title">Le voyage de Chihiro</h3>
-                        </div>
-                        <p class="slider__item-info">Horraire : 8h00</p>
-                        <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
-                    </li>
-                    <li class="slider__item">
-                        <div class="slider__item-film">
-                            <img class="slider__item-img"  src="assets/img/fool_time_job.png" alt="">
-                            <h3 class="slider__item-title">Le voyage de Chihiro</h3>
-                        </div>
-                        <p class="slider__item-info">Horraire : 8h00</p>
-                        <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
-                    </li>
-                    <li class="slider__item">
-                        <div class="slider__item-film">
-                            <img class="slider__item-img"  src="assets/img/letrange_noel_de_monsieur_jack.png" alt="">
-                            <h3 class="slider__item-title">Le voyage de Chihiro</h3>
-                        </div>
-                        <p class="slider__item-info">Horraire : 8h00</p>
-                        <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
-                    </li>
-                    <li class="slider__item">
-                        <div class="slider__item-film">
-                            <img class="slider__item-img"  src="assets/img/festival_dehors_1.png" alt="">
-                            <h3 class="slider__item-title">Le voyage de Chihiro</h3>
-                        </div>
-                        <p class="slider__item-info">Horraire : 8h00</p>
-                        <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
-                    </li>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/le_voyage_de_chiiro.png" alt="">
+                                <h3 class="slider__item-title">Le voyage de Chihiro</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 8h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/fool_time_job.png" alt="">
+                                <h3 class="slider__item-title">(fool time) Job</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 10h30</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/letrange_noel_de_monsieur_jack.png"
+                                    alt="">
+                                <h3 class="slider__item-title">L'étrange noël de monsieur Jack</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 11h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/festival_dehors_1.png" alt="">
+                                <h3 class="slider__item-title">Intervention sur le climat</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 14h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </article>
+        <article class="filmListe jour2">
+            <h3>Filmes d'actions<br>Jour 2</h3>
+            <div class="filmListe jour2__slider slider">
+                <ul class="slider__liste">
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/un_homme_en_colere.png" alt="">
+                                <h3 class="slider__item-title">Un homme en colère</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 8h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/hypnotic.png" alt="">
+                                <h3 class="slider__item-title">Hypnotic</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 10h15</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/rebel_ridge.png" alt="">
+                                <h3 class="slider__item-title">Rebel Ridge</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 14h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/the_dark_knight.png" alt="">
+                                <h3 class="slider__item-title">The Dark Knight</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 16h30</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </article>
+        <article class="filmListe jour3">
+            <h3>Filmes sur l'escpace<br>Jour 3</h3>
+            <div class="filmListe jour3__slider slider">
+                <ul class="slider__liste">
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/interstellar.png" alt="">
+                                <h3 class="slider__item-title">Interstellar</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 8h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/2001.png" alt="">
+                                <h3 class="slider__item-title">2001, l'Odyssée de l'espace</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 10h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/seul_sur_mars.png" alt="">
+                                <h3 class="slider__item-title">Seul dur Mars</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 14h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/festival_dehors_1.png" alt="">
+                                <h3 class="slider__item-title">Intervention sur les énergies vertes</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 17h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </article>
+        <article class="filmListe jour4">
+            <h3>Filmes humoristique<br>Jour 4</h3>
+            <div class="filmListe jour4__slider slider">
+                <ul class="slider__liste">
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/le_dine_de_con.png" alt="">
+                                <h3 class="slider__item-title">Le diné de con</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 8h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/un_ptit_truc_en_plus.png" alt="">
+                                <h3 class="slider__item-title">Un p'tit truc en plus</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 9h30</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/astérix_et_obélix.png" alt="">
+                                <h3 class="slider__item-title">Astérix et Obélix : mission cléopatre</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 14h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/oss117.png" alt="">
+                                <h3 class="slider__item-title">OSS 117</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 16h10</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </article>
+        <article class="filmListe jour5">
+            <h3>Filmes sérieux<br>Jour 5</h3>
+            <div class="filmListe jour5__slider slider">
+                <ul class="slider__liste">
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/sully.png" alt="">
+                                <h3 class="slider__item-title">Sully</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 8h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/12_homme_en_colere.png" alt="">
+                                <h3 class="slider__item-title">12 hommes en colère</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 10h45</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/shutter_island.png" alt="">
+                                <h3 class="slider__item-title">Shutter island</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 14h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="slider__item">
+                            <div class="slider__item-film">
+                                <img class="slider__item-img" src="assets/img/festival_dehors_3.png" alt="">
+                                <h3 class="slider__item-title">Fête de fin de festival</h3>
+                            </div>
+                            <p class="slider__item-info">Horraire : 17h00</p>
+                            <p class="slider__item-info">Lieux : Espace de la Tuilerie</p>
+                        </li>
+                    </a>
                 </ul>
             </div>
         </article>
@@ -125,4 +331,5 @@
         </div>
     </footer>
 </body>
+
 </html>
