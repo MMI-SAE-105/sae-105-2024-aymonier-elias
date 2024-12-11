@@ -24,3 +24,15 @@
         text-align: center;
     }
 }
+
+.billetterie__link {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--green-light);
+    border-radius: 10px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
