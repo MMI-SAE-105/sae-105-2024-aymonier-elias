@@ -20,16 +20,18 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header container">
         <div class="header__menu menu">
             <a href="/">
-                <img class="menu__logo" src="assets/icons/logo/logo.svg" alt="">
+                <img src="assets/icons/logo/logo.svg" alt="">
             </a>
             <button class="menu__btn" aria-expanded="false" aria-label="Ouvrir le menu">
-                <span class="menu__btn-bar"></span>
+                <span class="menu__btn-bars"></span>
             </button>
         </div>
 
+        <!-- Nav -->
         <nav class="header__nav nav" aria-hidden="true">
             <ul class="nav__list">
                 <li class="nav__item">
@@ -58,126 +60,138 @@
                 </li>
             </ul>
         </nav>
-
-        <div class="header__hero hero">
-            <h1 class="hero__title">Cinémagny</h1>
-        </div>
     </header>
 
-    <section class="billetterie container">
-        <h2>Billetterie</h2>
-        <ul class="billetterie__liste">
-            <li class="billetterie__item">
-                <a class="billetterie__card container" href="">
-                    <h3>Pass 2 premiers jours</h3>
-                    <p>Du 12 au 14 Novembre</p>
-                    <h3>25 €</h3>
-                    <img src="assets/icons/buy.svg" alt="">
-                </a>
-            </li>
-            <li class="billetterie__item">
-                <a class="billetterie__card container" href="">
-                    <h3>Pass 2 derniers jours</h3>
-                    <p>Du 14 au 16 Novembre</p>
-                    <h3>28 €</h3>
-                    <img src="assets/icons/buy.svg" alt="">
-                </a>
-            </li>
-            <li class="billetterie__item">
-                <a class="billetterie__card container" href="">
-                    <h3>Pass 4 jours</h3>
-                    <p>Du 12 au 16 Novembre</p>
-                    <h3>45 €</h3>
-                    <img src="assets/icons/buy.svg" alt="">
-                </a>
-            </li>
-        </ul>
-        <a class="billetterie__link pageBtn" href="">
-            Billetterie
-            <img src="assets/icons/ticket.svg" alt="">
-        </a>
-    </section>
+    <div class="hero container">
+        <img src="" alt="" class="hero__barckground">
+        <h1>Cinémagny</h1>
+    </div>
 
-    <section class="aPropos container">
-        <h2>À Propos</h2>
-        <p class="aPropos__texte"><strong>CINEMAGNY</strong> est un festival audiovisuel localisé à Giromagny dédié
-            exclusivement au 7ᵉ
-            art. Il proposera une sélection variée de films allant des longs au court métrage, ainsi que des
-            documentaires ou films d'animation. L'objectif est de célébrer le cinéma dans toute sa diversité et de
-            mettre en avant des œuvres, méconnu, innovante ou originale. La particularité de ce festival sera son
-            engagement à mettre en avant des talents émergent du cinéma indépendant et mettre en lumière des artistes
-            locaux. <strong>CINEMAGNY</strong> offrira une plateforme aux nouveaux réalisateurs pour présenter leurs
-            œuvres aussi bien au
-            public qu'au professionnel de l'industrie audiovisuel. Le tout pourrait être agrémenter d'avant-première
-            exclusives d'hommage et rétrospectives à des figures emblématiques du cinéma.</p>
-        <a class="aPropos__link pageBtn" href="">
-            Plus d'Information
-            <img src="assets/icons/fleche.svg" alt="">
-        </a>
-    </section>
+    <!-- Content -->
+    <section class="content container">
+        <article class="content__billet billet">
+            <h2>Billeterie</h2>
+            <div class="billet__liste">
+                <div class="billet__card">
+                    <h3>Pass 3 premiers jours</h3>
+                    <p>Du 12 au 14 novembre</p>
+                    <h3>25€</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </div>
+                <div class="billet__card">
+                    <h3>Pass 3 derniers jours</h3>
+                    <p>Du 14 au 16 novembre</p>
+                    <h3>28€</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </div>
+                <div class="billet__card">
+                    <h3>Pass 5 jours</h3>
+                    <p>Date</p>
+                    <h3>45€</h3>
+                    <img src="assets/icons/buy.svg" alt="">
+                </div>
+            </div>
+            <a class="billet__btn link__btn" href="billeterie.html">
+                Billeterie
+                <img src="assets/icons/ticket.svg" alt="">
+            </a>
+        </article>
 
-    <section class="programmation container">
-        <h2>Programmation</h2>
-        <div class="programmation__slider">
-            <a class="programmation__link" href="">
-                <div class="programmation__card card">
-                    <h3>premiers jours dédier à l'animation</h3>
-                    <div class="card__films">
+        <article class="content__propos">
+            <h2>À Propos</h2>
+            <p><strong>CINEMAGNY</strong> est un festival audiovisuel localisé à Giromagny dédié
+                exclusivement au 7ᵉ
+                art. Il proposera une sélection variée de films allant des longs au court métrage, ainsi que des
+                documentaires ou films d'animation. L'objectif est de célébrer le cinéma dans toute sa diversité et de
+                mettre en avant des œuvres, méconnu, innovante ou originale. La particularité de ce festival sera son
+                engagement à mettre en avant des talents émergent du cinéma indépendant et mettre en lumière des artistes
+                locaux. <strong>CINEMAGNY</strong> offrira une plateforme aux nouveaux réalisateurs pour présenter leurs
+                œuvres aussi bien au
+                public qu'au professionnel de l'industrie audiovisuel. Le tout pourrait être agrémenter d'avant-première
+                exclusives d'hommage et rétrospectives à des figures emblématiques du cinéma.</p>
+            <a class="link__btn" href="">
+                Plus d'information
+                <img src="assets/icons/livre.svg" alt="">
+            </a>
+        </article>
+
+        <article class="content__prog prog">
+            <h2>Programmation</h2>
+            <div class="prog__slider slider">
+                <div class="slider__item">
+                    <h3>Premier jour dédier à l'annimation</h3>
+                    <div class="slider__item-img">
                         <img src="assets/img/le_voyage_de_chiiro.png" alt="">
                         <img src="assets/img/fool_time_job.png" alt="">
                         <img src="assets/img/letrange_noel_de_monsieur_jack.png" alt="">
                     </div>
                 </div>
-            </a>
-            <a class="programmation__link" href="">
-                <div class="programmation__card card">
-                    <h3>premiers jours dédier à l'animation</h3>
-                    <div class="card__films">
+                <div class="slider__item">
+                    <h3>Deuxième jour dédier à l'annimation</h3>
+                    <div class="slider__item-img">
                         <img src="assets/img/un_homme_en_colere.png" alt="">
                         <img src="assets/img/hypnotic.png" alt="">
                         <img src="assets/img/rebel_ridge.png" alt="">
                         <img src="assets/img/the_dark_knight.png" alt="">
                     </div>
                 </div>
-            </a>
-            <a class="programmation__link" href="">
-                <div class="programmation__card card">
-                    <h3>premiers jours dédier à l'animation</h3>
-                    <div class="card__films">
+                <div class="slider__item">
+                    <h3>Troisième jour dédier à l'annimation</h3>
+                    <div class="slider__item-img">
                         <img src="assets/img/interstellar.png" alt="">
                         <img src="assets/img/2001.png" alt="">
                         <img src="assets/img/seul_sur_mars.png" alt="">
                     </div>
                 </div>
-            </a>
-            <a class="programmation__link" href="">
-                <div class="programmation__card card">
-                    <h3>premiers jours dédier à l'animation</h3>
-                    <div class="card__films">
+                <div class="slider__item">
+                    <h3>Quatrième jour dédier à l'annimation</h3>
+                    <div class="slider__item-img">
                         <img src="assets/img/le_dine_de_con.png" alt="">
                         <img src="assets/img/astérix_et_obélix.png" alt="">
                         <img src="assets/img/un_ptit_truc_en_plus.png" alt="">
                         <img src="assets/img/oss117.png" alt="">
                     </div>
                 </div>
-            </a>
-            <a class="programmation__link" href="">
-                <div class="programmation__card card">
-                    <h3>premiers jours dédier à l'animation</h3>
-                    <div class="card__films">
+                <div class="slider__item">
+                    <h3>Dernier jour dédier à l'annimation</h3>
+                    <div class="slider__item-img">
                         <img src="assets/img/sully.png" alt="">
                         <img src="assets/img/12_homme_en_colere.png" alt="">
                         <img src="assets/img/shutter_island.png" alt="">
                     </div>
                 </div>
+            </div>
+            <a class="prog__btn link__btn" href="">
+                Programmation
+                <img src="assets/icons/calendrier.svg" alt="">
             </a>
-        </div>
+        </article>
+
+        <article class="content__partenaire partenaire">
+            <h2>Partenaire</h2>
+            <div class="partenaire__liste">
+                <div class="partenaire__item">
+                    <img src="assets/img/gilles_cuvelier.png" alt="">
+                    <h3>Gilles Cuvelier</h3>
+                    <p class="text-s">Réalisateus</p>
+                </div>
+                <div class="partenaire__item">
+                    <img src="assets/img/anais_orsi.png" alt="">
+                    <h3>Anaïs Orsi</h3>
+                    <p class="text-s">Spétialiste du climat polaire</p>
+                </div>
+            </div>
+            <a class="partenaire__btn link__btn" href="">
+                Les autres invités
+                <img src="assets/icons/profile.svg" alt="">
+            </a>
+        </article>
     </section>
 
     <footer class="footer container">
         <img class="footer__logo" src="assets/icons/logo/logo.svg" alt="">
         <div class="footer__menu">
-            <h3 class="footer__menu-title">Menu</h3>
+            <h3>Menu</h3>
             <ul class="footer__liste">
                 <li class="footer__item"><a href="">Mentions Légales</a></li>
                 <li class="footer__item"><a href="">Archive</a></li>
@@ -185,14 +199,14 @@
             </ul>
         </div>
         <div class="footer__contact">
-            <h3 class="footer__contact-litle">Contact</h3>
+            <h3>Contact</h3>
             <ul class="footer__liste">
                 <li class="footer__item"><a href="">09 55 64 84 50</a></li>
                 <li class="footer__item"><a href="">cinémagny@gmail.com</a></li>
             </ul>
         </div>
         <div class="footer__media">
-            <h3 class="footer__media-title">Nous Suivre</h3>
+            <h3>Nous Suivre</h3>
             <ul class="footer__liste footer__liste-media">
                 <li class="footer__item">
                     <a href=""><img src="assets/icons/resau/svgexport-49.svg" alt=""></a>
