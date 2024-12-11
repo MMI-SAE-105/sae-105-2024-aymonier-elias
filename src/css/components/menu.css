@@ -1,12 +1,18 @@
-.menuBtn {
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu__btn {
     position: relative;
     height: auto;
     width: 30px;
 }
 
-.menuBtn-bar,
-.menuBtn-bar::before,
-.menuBtn-bar::after{
+.menu__btn-bar,
+.menu__btn-bar::before,
+.menu__btn-bar::after{
     content: "";
     background-color: var(--gray-10);
     height: 2.5px;
@@ -14,9 +20,9 @@
     position: absolute;
     left: 0;
 }
-.menuBtn-bar::before{
+.menu__btn-bar::before{
     top: -10px;
 }
-.menuBtn-bar::after{
+.menu__btn-bar::after{
     top: 10px;
 }
