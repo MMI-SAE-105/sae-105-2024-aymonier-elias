@@ -1,0 +1,22 @@
+.menuBtn {
+    position: relative;
+    height: auto;
+    width: 30px;
+}
+
+.menuBtn-bar,
+.menuBtn-bar::before,
+.menuBtn-bar::after{
+    content: "";
+    background-color: var(--gray-10);
+    height: 2.5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.menuBtn-bar::before{
+    top: -10px;
+}
+.menuBtn-bar::after{
+    top: 10px;
+}

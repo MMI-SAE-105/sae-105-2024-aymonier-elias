@@ -1,0 +1,26 @@
+.billetterie__liste {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.billetterie__item {
+    width: 30vw;
+    height: 225px;
+    background-color: var(--gray-0);
+    border-radius: 10px;
+}
+
+.billetterie__card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h3,
+    p {
+        color: var(--gray-10);
+        text-align: center;
+    }
+}

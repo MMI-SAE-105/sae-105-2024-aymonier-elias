@@ -1,18 +1,30 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font: var(--title-xxl);
 }
+
 h2 {
     font: var(--title-xl);
     color: var(--gray-0);
 }
+
 h3 {
     font: var(--title-l);
     color: var(--gray-0);
 }
-p{
+
+p {
     font: var(--texte);
     color: var(--gray-0);
 }
+
 .small-texte {
     font: var(--texte-s);
     color: var(--gray-0);
@@ -24,9 +36,17 @@ a {
     color: var(--gray-0);
 }
 
+ul {
+    list-style: none;
+}
+
 button {
     background: none;
     border: none;
     font: var(--button);
     color: var(--gray-0);
+}
+
+.container {
+    padding: 20px;
 }

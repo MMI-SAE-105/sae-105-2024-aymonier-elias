@@ -15,7 +15,7 @@
     --title-xxl: bold 2rem var(--rajdhani);
     --title-xl: bold 1.5rem var(--rajdhani);
     --title-l: bold 1.25rem var(--roboto);
-    --texte: 0.875rem var(--roboto);
+    --texte: 0.75rem var(--roboto);
     --texte-s: italic 200 0.75rem var(--roboto);
     --button: 600 0.875rem var(--roboto);
   }
