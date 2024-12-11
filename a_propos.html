@@ -20,7 +20,141 @@
 </head>
 
 <body>
+    <header class="header container">
+        <a href="/">
+            <img class="header__logo" src="assets/icons/logo/logo.svg" alt="">
+        </a>
+        <button class="header__menuBtn menuBtn" aria-expanded="false" aria-label="Ouvrir le menu">
+            <span class="menuBtn-bar"></span>
+        </button>
 
+        <nav class="header__nav nav" aria-hidden="true">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="a_propos.html"><img src="assets/icons/livre.svg"
+                            alt="">À Propos</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/ticket.svg"
+                            alt="">Billetterie</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/films.svg" alt="">Films</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/calendrier.svg"
+                            alt="">Programmation</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/profile.svg" alt="">Invité</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/about.svg" alt="">Infos
+                        Pratiques</a></li>
+                <li class="nav__item"><a class="nav__link" href=""><img src="assets/icons/mail.svg" alt="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__hero hero">
+            <h1 class="hero__title">À Propos</h1>
+        </div>
+    </header>
+
+    <section class="explication">
+        <h1 class="explication"></h1>
+        <article class="explication__texte">
+            <p>Le festival Cinémagny, est un événement unique, conçu pour allier passion du cinéma et sensibilisation
+                aux enjeux environnementaux. Il propose une sélection variée de films qui abordent des thèmes
+                inspirants, allant de la nature aux défis écologiques actuels. Chaque jour, les participants auront
+                l'occasion de découvrir des œuvres cinématographiques fortes, qui suscitent réflexion et débat.</p>
+        </article>
+        <a class="explication__link" href="">
+            Programmation
+            <img src="assets/icons/fleche.svg" alt="">
+        </a>
+        <img class="explication__img" src="assets/img/scéma.png" alt="">
+        <article class="explication__texte">
+            <p>En parallèle des projections, le festival accueillera plusieurs interventions de spécialistes, abordant
+                des sujets comme le changement climatique et les énergies vertes. Ces discussions visent à sensibiliser
+                le public et à encourager des actions concrètes pour un avenir plus durable. Ces conférences sont des
+                moments d’échange privilégiés entre le public et des experts engagés.</p>
+        </article>
+        <img class="explication__img" src="assets/img/festival dehors.png" alt="">
+        <article class="explication__texte">
+            <p>Le festival, situé à Giromagny, met également un point d'honneur à l'écoresponsabilité, en proposant des
+                repas locaux et durables à chaque participant. Pour clôturer l'événement, une grande cérémonie de
+                fermeture, avec une soirée DJ, permettra de célébrer ensemble cette expérience riche en découvertes,
+                partages et apprentissages. C’est un rendez-vous à ne pas manquer pour tous les passionnés de cinéma et
+                d’écologie !</p>
+        </article>
+        <img class="explication__img" src="assets/img/festival dehors 2.png" alt="">
+        <article class="explication__texte">
+            <p>Le festival se tiendra dans plusieurs lieux emblématiques de Giromagny, choisis pour leur capacité à
+                accueillir différentes activités en lien avec l’esprit du festival.</p>
+            <p>La Salle du Conseil Municipal, au cœur de la ville, servira de cadre aux interventions et discussions sur
+                les thématiques environnementales, favorisant l’échange d’idées entre experts et participants. L’Espace
+                de la Tuilerie et l’Espace Mazarin, accueilleront les projections de films. Ces espaces ont été choisis
+                pour leur accessibilité et leurs équipements, permettant de vivre pleinement l’expérience
+                cinématographique du festival.</p>
+            <p>Enfin, le Château de la Rosemontoise, au cadre prestigieux, a été sélectionné pour la cérémonie de
+                clôture. Ce lieu unique offrira une atmosphère intime et festive pour conclure le festival en célébrant
+                les rencontres et les découvertes faites au cours des cinq jours.</p>
+        </article>
+    </section>
+
+    <section class="lieux">
+        <div class="lieux__slider">
+            <ul class="lieux__liste">
+                <li class="lieux__item">
+                    <img class="lieux__img" src="assets/img/image-1.png" alt="">
+                    <p class="small__texte">Espace de la Tuilerie</p>
+                </li>
+                <li class="lieux__item">
+                    <img class="lieux__img" src="assets/img/image-2.png" alt="">
+                    <p class="small__texte">Salle du Conseil Municipal</p>
+                </li>
+                <li class="lieux__item">
+                    <img class="lieux__img" src="assets/img/image-3.png" alt="">
+                    <p class="small__texte">Espace Mazarin</p>
+                </li>
+                <li class="lieux__item">
+                    <img class="lieux__img" src="assets/img/image.png" alt="">
+                    <p class="small__texte">Châteaux de la Rosemontoise</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <h1 class="footer__title">Cinémagny</h1>
+        <div class="footer__menu">
+            <h2 class="footer__menu-title">Menu</h2>
+            <ul class="footer__menu-liste">
+                <li class="footer__menu-item"><a href="">Mentions Légales</a></li>
+                <li class="footer__menu-item"><a href="">Archive</a></li>
+                <li class="footer__menu-item"><a href="">Contact & Accès</a></li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+            <h2 class="footer__contact-litle">Contact</h2>
+            <ul class="footer__contact-liste">
+                <li class="footer__contact-item"><a href="">09 55 64 84 50</a></li>
+                <li class="footer__contact-item"><a href="">cinémagny@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="footer__media">
+            <h2 class="footer__media-title">Nous Suivre</h2>
+            <ul class="footer__media-liste">
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/svgexport-49.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/ic_baseline-facebook.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/svgexport-47.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/ic_baseline-tiktok.svg" alt=""></a>
+                </li>
+                <li class="footer__media-item">
+                    <a href=""><img src="assets/icons/resau/mdi_youtube.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
