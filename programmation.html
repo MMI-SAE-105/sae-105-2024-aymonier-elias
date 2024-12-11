@@ -34,19 +34,22 @@
                     <a class="nav__link" href="a_propos.html"><img src="assets/icons/livre.svg" alt="">À Propos</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="billeterie.html"><img src="assets/icons/ticket.svg" alt="">Billetterie</a>
+                    <a class="nav__link" href="billeterie.html"><img src="assets/icons/ticket.svg"
+                            alt="">Billetterie</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="films.html"><img src="assets/icons/films.svg" alt="">Films</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="programmation.html"><img src="assets/icons/calendrier.svg" alt="">Programmation</a>
+                    <a class="nav__link" href="programmation.html"><img src="assets/icons/calendrier.svg"
+                            alt="">Programmation</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="invite.html"><img src="assets/icons/profile.svg" alt="">Invité</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="info_pratiques.html"><img src="assets/icons/about.svg" alt="">Infos Pratiques</a>
+                    <a class="nav__link" href="info_pratiques.html"><img src="assets/icons/about.svg" alt="">Infos
+                        Pratiques</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="contact.html"><img src="assets/icons/mail.svg" alt="">Contact</a>
@@ -63,6 +66,75 @@
 
     <section class="programmation container">
         <h2>La programmation des films de cette année</h2>
+
+        <div class="programmation__filter filter">
+            <div class="filter__button">
+                <button class="filter__button-filter" aria-expanded="false"><img src="assets/icons/filter.svg" alt=""></button>
+                <button class="filter__button-search" aria-expanded="false"><img src="assets/icons/loupe.svg" alt=""></button>
+            </div>
+            <div class="filter__activeFilter activFilter">
+                <div class="activFilter-filter">
+                    <p class="small-text">Filtre</p>
+                    <img src="assets/icons/croix.svg" alt="">
+                </div>
+                <div class="activFilter-filter">
+                    <p class="small-text">Filtre</p>
+                    <img src="assets/icons/croix.svg" alt="">
+                </div>
+                <div class="activFilter-filter">
+                    <p class="small-text">Filtre</p>
+                    <img src="assets/icons/croix.svg" alt="">
+                </div>
+            </div>
+
+
+            <nav class="fliter__menu-filter menu">
+                <button class="menu__btn">
+                    <img src="assets/icons/croix.svg" alt="">
+                </button>
+                <div class="menu__genre">
+                    <ul class="menu__liste">
+                        <li class="menu__item">
+                            <div class="activFilter-filter">
+                                <p class="small-text">Filtre</p>
+                                <img src="assets/icons/plus.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__horraires">
+                    <ul class="menu__liste">
+                        <li class="menu__item">
+                            <div class="activFilter-filter">
+                                <p class="small-text">Filtre</p>
+                                <img src="assets/icons/plus.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__lieux">
+                    <ul class="menu__liste">
+                        <li class="menu__item">
+                            <div class="activFilter-filter">
+                                <p class="small-text">Filtre</p>
+                                <img src="assets/icons/plus.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav class="filter__menu-search menu">
+                <form class="menu__form" action="">
+                    <label class="menu__label" for="search"></label>
+                    <input id="search" class="menu__input" type="text">
+                </form>
+                <button class="menu__btn">
+                    <img src="assets/icons/croix.svg" alt="">
+                </button>
+            </nav>
+        </div>
+
         <article class="filmListe jour1">
             <h3>Filmes d'annimation<br>Jour 1</h3>
             <div class="filmListe jour1__slider slider">
@@ -300,7 +372,7 @@
             </div>
         </article>
     </section>
-    
+
     <a class="button-télécharger" target="_blank" href="assets/document/Cinemagny-Pregramme_du_festival.pdf">
         Télécharger
         <img src="assets/icons/fleche.svg" alt="">
