@@ -1,4 +1,36 @@
-.nav[aria-hidden = true] {
+/* .nav[aria-hidden = true] {
     visibility: hidden;
     position: absolute;
+} */
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    position: fixed;
+    inset: 0;
+    background-color: var(--green-dark);
+}
+
+.nav__liste {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+    color: var(--gray-10);
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: solid 3px;
+}
+
+.nav__laste {
+    border: none;
 }
