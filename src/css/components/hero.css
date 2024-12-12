@@ -1,0 +1,7 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--gray-10);
+    margin-top: 50px;
+}

@@ -41,6 +41,11 @@ ul {
     list-style: none;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 .container{
     padding: 20px;
 }

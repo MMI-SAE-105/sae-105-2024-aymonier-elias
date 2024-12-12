@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 10px 20px;
 }
 
 .menu__btn {
@@ -10,9 +11,9 @@
     width: 30px;
 }
 
-.menu__btn-bar,
-.menu__btn-bar::before,
-.menu__btn-bar::after{
+.menu__btn-bars,
+.menu__btn-bars::before,
+.menu__btn-bars::after{
     content: "";
     background-color: var(--gray-10);
     height: 2.5px;
@@ -20,9 +21,9 @@
     position: absolute;
     left: 0;
 }
-.menu__btn-bar::before{
+.menu__btn-bars::before{
     top: -10px;
 }
-.menu__btn-bar::after{
+.menu__btn-bars::after{
     top: 10px;
 }
