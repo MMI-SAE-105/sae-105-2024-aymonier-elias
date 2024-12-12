@@ -5,6 +5,8 @@
     background-image: url(/assets/img/giromagny.png);
     background-size: cover;
     background-position: center;
+
+    margin-bottom: 50px;
 }
 .header * {
     z-index: 1;

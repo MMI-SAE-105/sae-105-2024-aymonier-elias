@@ -1,0 +1,12 @@
+.content__propos {
+    gap: 50px !important;
+}
+
+.content__propos img{
+    width: 100vw;
+    height: auto !important;
+}
+
+.content__propos .slider img {
+    width: auto;
+}

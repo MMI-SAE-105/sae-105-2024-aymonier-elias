@@ -1,0 +1,23 @@
+.partenaire__liste {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+.partenaire__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    max-width: 169px;
+    img {
+        width: 100%;
+        height: auto !important;
+    }
+}
+
+.content__partenaire {
+    gap: 50px !important;
+    padding: 0;
+}
