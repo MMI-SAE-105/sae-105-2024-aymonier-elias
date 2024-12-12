@@ -9,7 +9,7 @@
     position: relative;
     height: auto;
     width: 30px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .menu__btn-bars,
@@ -29,7 +29,6 @@
 .menu__btn-bars::after{
     top: 10px;
 }
-
 
 .menu__btn[aria-expanded="true"] .menu__btn-bars {
     background-color: var(--green-dark);

@@ -2,6 +2,12 @@
     visibility: hidden;
     position: absolute;
     transform: translate(100%);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    position: fixed;
+    inset: 0;
+    background-color: var(--green-dark);
 }
 
 .nav {
@@ -12,6 +18,7 @@
     inset: 0;
     background-color: var(--green-dark);
     transition: 0.5s ease;
+    z-index: 3;
 }
 
 .nav__liste {
