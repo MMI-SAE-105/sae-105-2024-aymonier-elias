@@ -15,12 +15,15 @@ h2 {
     color: var(--gray-0);
 }
 
-h3 {
+h3,
+.form__label {
     font: var(--title-l);
     color: var(--gray-0);
 }
 
-p {
+p,
+.form__input::placeholder,
+.form__input:focus{
     font: var(--texte);
     color: var(--gray-0);
     line-height: 150%;
@@ -66,4 +69,8 @@ button {
     width: 100%;
     border-radius: 10px;
     padding: 10px 20px;
+    text-transform: uppercase;
+    font: var(--button);
+    font-family: var(--roboto);
+    letter-spacing: 2px;
 }
