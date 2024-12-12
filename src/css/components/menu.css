@@ -21,10 +21,24 @@
     width: 100%;
     position: absolute;
     left: 0;
+    transition: 0.5s ease;
 }
 .menu__btn-bars::before{
     top: -10px;
 }
 .menu__btn-bars::after{
     top: 10px;
+}
+
+
+.menu__btn[aria-expanded="true"] .menu__btn-bars {
+    background-color: var(--green-dark);
+}
+.menu__btn[aria-expanded="true"] .menu__btn-bars::before{
+    transform: rotate(-135deg);
+    top: 0;
+}
+.menu__btn[aria-expanded="true"] .menu__btn-bars::after{
+    transform: rotate(135deg);
+    top: 0;
 }

@@ -1,7 +1,8 @@
-/* .nav[aria-hidden = true] {
+.nav[aria-hidden = true] {
     visibility: hidden;
     position: absolute;
-} */
+    transform: translate(100%);
+}
 
 .nav {
     display: flex;
@@ -10,6 +11,7 @@
     position: fixed;
     inset: 0;
     background-color: var(--green-dark);
+    transition: 0.5s ease;
 }
 
 .nav__liste {
