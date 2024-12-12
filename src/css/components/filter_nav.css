@@ -1,0 +1,56 @@
+.filter__nav[aria-hidden = true] {
+    visibility: hidden;
+    transform: translateX(-100%);
+}
+
+.filter__nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    left: 0;
+    top: 450px;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--green-light);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 0;
+    transition: .5s ease;
+}
+.filter-nav__choix {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filter-nav__choix-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-nav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-nav__filtre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--green-dark);
+    border-radius: 10px;
+    padding: 3px 10px;
+    p {
+        color: var(--gray-10);
+        font-weight: bold;
+    }
+    img {
+        height: 20px;
+    }
+}
