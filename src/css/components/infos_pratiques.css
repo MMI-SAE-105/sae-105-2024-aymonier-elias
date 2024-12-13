@@ -1,0 +1,17 @@
+.content__tarifs-liste{
+    display: flex;
+    gap: 10px;
+}
+
+.faq__liste {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: solid 3px var(--green-dark);
+    padding-bottom: 20px;
+}

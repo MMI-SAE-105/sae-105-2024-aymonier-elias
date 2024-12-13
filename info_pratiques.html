@@ -36,7 +36,8 @@
         <nav class="header__nav nav" aria-hidden="true">
             <ul class="nav__liste">
                 <li class="nav__item">
-                    <a class="nav__link" href="a_propos.html"><img src="assets/icons/livre_blanc.svg" alt="">À Propos</a>
+                    <a class="nav__link" href="a_propos.html"><img src="assets/icons/livre_blanc.svg" alt="">À
+                        Propos</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="billeterie.html"><img src="assets/icons/billet_blanc.svg"
@@ -50,14 +51,16 @@
                             alt="">Programmation</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="invites.html"><img src="assets/icons/profile_blanc.svg" alt="">Invités</a>
+                    <a class="nav__link" href="invites.html"><img src="assets/icons/profile_blanc.svg"
+                            alt="">Invités</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="info_pratiques.html"><img src="assets/icons/about_blanc.svg" alt="">Infos
                         Pratiques</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link nav__laste" href="contact.html"><img src="assets/icons/mail_blanc.svg" alt="">Contact</a>
+                    <a class="nav__link nav__laste" href="contact.html"><img src="assets/icons/mail_blanc.svg"
+                            alt="">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -70,26 +73,29 @@
     <!-- Content -->
     <section class="content container">
         <article class="content__tarifs">
-            <div class="billet__card">
-                <h3>Pass 3 premiers jours</h3>
-                <p>Du 12 au 14 novembre</p>
-                <h3>25€</h3>
-            </div>
-            <div class="billet__card">
-                <h3>Pass 3 derniers jours</h3>
-                <p>Du 14 au 16 novembre</p>
-                <h3>28€</h3>
-            </div>
-            <div class="billet__card">
-                <h3>Pass 5 jours</h3>
-                <p>Date</p>
-                <h3>45€</h3>
+            <h2>Tarifs</h2>
+            <div class="content__tarifs-liste">
+                <div class="billet__card">
+                    <h3>Pass 3 premiers jours</h3>
+                    <p>Du 12 au 14 novembre</p>
+                    <h3>25€</h3>
+                </div>
+                <div class="billet__card">
+                    <h3>Pass 3 derniers jours</h3>
+                    <p>Du 14 au 16 novembre</p>
+                    <h3>28€</h3>
+                </div>
+                <div class="billet__card">
+                    <h3>Pass 5 jours</h3>
+                    <p>Du 12 au 14 novembre</p>
+                    <h3>45€</h3>
+                </div>
             </div>
         </article>
 
         <article class="content__lieux">
             <h2>Lieux</h2>
-            <div class="content__slider slider">
+            <div class="content__slider slider slider-infos">
                 <div class="slider__item">
                     <img src="assets/img/chateaux_de_la_rosemontoise.png" alt="">
                     <p class="text-s">Châteaux de la Rosemontoise</p>
@@ -107,33 +113,41 @@
                     <p class="text-s">Espace Mazarin</p>
                 </div>
             </div>
+            <div class="slider__btn">
+                <button class="left-infos"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                <button class="right-infos"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+            </div>
         </article>
 
-        <article class="content__Hébergement">
-            <h2>Hébergement</h2>
-        </article>
+        <article class="content-faq faq">
+            <h2>FAQ</h2>
+            <ul class="faq__liste">
+                <li class="faq__item">
+                    <h3>Quels types de films seront projetés lors du festival ?
+                    </h3>
+                    <p>Le festival propose une sélection variée de films, allant des documentaires et courts-métrages
+                        aux longs-métrages de fiction, sur des thématiques écologiques et des sujets variés. Tous les
+                        genres sont représentés pour plaire à un large public.</p>
+                </li>
+                <li class="faq__item">
+                    <h3>Où se déroule le festival à Giromagny ?</h3>
+                    <p>Les projections et événements auront lieu dans plusieurs lieux emblématiques de Giromagny, dont
+                        la salle des fêtes et le cinéma local. Consultez le programme sur notre site officiel pour plus
+                        de détails.
 
-        <article class="content__transport">
-            <h2>Transport</h2>
-        </article>
-
-        <article class="FAQ">
-            <ul>
-                <li>
-                    <h3>Quoi ?</h3>
-                    <p>Feur !</p>
+                    </p>
                 </li>
-                <li>
-                    <h3>Quoi ?</h3>
-                    <p>Feur !</p>
+                <li class="faq__item">
+                    <h3>Y a-t-il des activités en lien avec l'écologie pendant le festival ?</h3>
+                    <p>Oui, en plus des projections, des ateliers, des conférences et des débats sur des sujets
+                        écologiques seront organisés tout au long du festival. Ces activités visent à sensibiliser le
+                        public aux enjeux environnementaux.</p>
                 </li>
-                <li>
-                    <h3>Quoi ?</h3>
-                    <p>Feur !</p>
-                </li>
-                <li>
-                    <h3>Quoi ?</h3>
-                    <p>Feur !</p>
+                <li class="faq__item">
+                    <h3>Comment puis-je acheter mes billets pour le festival ?</h3>
+                    <p>Les billets sont disponibles en ligne sur notre site officiel ou directement sur place. Nous
+                        proposons des pass pour une journée, plusieurs jours ou pour l'intégralité du festival. Réservez
+                        vos places à l'avance, car les projections peuvent être rapidement complètes.</p>
                 </li>
             </ul>
             <a class="link__btn" href="contact.html">
@@ -183,6 +197,7 @@
     </footer>
 
     <script src="src/js/scripts.js"></script>
+    <script src="src/js/slider_infos.js"></script>
 </body>
 
 </html>
