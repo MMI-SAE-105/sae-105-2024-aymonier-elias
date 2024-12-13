@@ -22,6 +22,7 @@ h3,
 }
 
 p,
+li,
 .form__input::placeholder,
 .form__input:focus{
     font: var(--texte);

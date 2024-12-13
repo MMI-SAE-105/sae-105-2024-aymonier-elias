@@ -9,3 +9,9 @@
 .menu__logo {
     height: 50px;
 }
+
+.content__entete{
+    overflow: hidden;
+    width: 100vw;
+    height: auto !important;
+}

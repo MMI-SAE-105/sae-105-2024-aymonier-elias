@@ -1,6 +1,11 @@
+.content__partenaire {
+    gap: 50px !important;
+    padding: 0;
+}
+
 .partenaire__liste {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
     width: 100%;
@@ -10,14 +15,9 @@
     flex-direction: column;
     gap: 5px;
     width: 100%;
-    max-width: 169px;
     img {
         width: 100%;
         height: auto !important;
+        border-radius: 10px;
     }
-}
-
-.content__partenaire {
-    gap: 50px !important;
-    padding: 0;
 }
