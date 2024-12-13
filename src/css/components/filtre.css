@@ -1,4 +1,33 @@
 .filter__menu {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+}
+
+.filter__active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: var(--green-dark);
+    border-radius: 50px;
+    padding: 3px 10px;
+
+    p {
+        color: var(--gray-10);
+        font-weight: bold;
+    }
+
+    img {
+        height: 20px;
+    }
 }
