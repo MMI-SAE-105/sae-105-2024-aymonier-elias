@@ -16,3 +16,19 @@
     display: flex;
     gap: 10px;
 }
+
+.slider__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+
+    button {
+        height: 32px;
+
+        img{
+            height: 32px;
+        }
+    }
+}

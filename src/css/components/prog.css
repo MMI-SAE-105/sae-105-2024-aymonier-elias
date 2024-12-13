@@ -1,3 +1,8 @@
+.prog__slider {
+    display: flex;
+    gap: 50px !important;
+}
+
 .prog__slider .slider__item {
     display: flex;
     flex-direction: column;
@@ -9,10 +14,15 @@
 }
 
 .prog__slider .slider__item-img {
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--green-light);
     padding: 10px;
     border-radius: 20px;
+    width: 230px;
 }
 .prog__slider .slider__item-img img{
     border-radius: 10px;
+    width: 100px;
+    height: 100px;
 }
