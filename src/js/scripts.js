@@ -13,12 +13,9 @@ filtreBtn.addEventListener("click", () =>{
 
 
 function toggle (btn, menu)  {
-    console.log("Je fonctionne !")
-
     const isOpen = btn.ariaExpanded === "true";
     const isClosed = !isOpen;
-    console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
-    
+
     menu.ariaHidden = isOpen;
     btn.ariaExpanded = isClosed;
 }

@@ -36,13 +36,14 @@
         <nav class="header__nav nav" aria-hidden="true">
             <ul class="nav__liste">
                 <li class="nav__item">
-                    <a class="nav__link" href="a_propos.html"><img src="assets/icons/livre_blanc.svg" alt="">À Propos</a>
+                    <a class="nav__link" href="a_propos.html"><img src="assets/icons/livre_blanc.svg" alt="">À
+                        Propos</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="billeterie.html"><img src="assets/icons/billet_blanc.svg"
-                        alt="">Billetterie</a>
-                    </li>
-                    <li class="nav__item">
+                            alt="">Billetterie</a>
+                </li>
+                <li class="nav__item">
                     <a class="nav__link" href="films.html"><img src="assets/icons/films_blanc.svg" alt="">Films</a>
                 </li>
                 <li class="nav__item">
@@ -50,14 +51,16 @@
                             alt="">Programmation</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="invites.html"><img src="assets/icons/profile_blanc.svg" alt="">Invités</a>
+                    <a class="nav__link" href="invites.html"><img src="assets/icons/profile_blanc.svg"
+                            alt="">Invités</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="info_pratiques.html"><img src="assets/icons/about_blanc.svg" alt="">Infos
                         Pratiques</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link nav__laste" href="contact.html"><img src="assets/icons/mail_blanc.svg" alt="">Contact</a>
+                    <a class="nav__link nav__laste" href="contact.html"><img src="assets/icons/mail_blanc.svg"
+                            alt="">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -68,7 +71,7 @@
 
 
     <!-- Content -->
-     <section class="content container">
+    <section class="content container">
         <h2>La programmation des films de cete année</h2>
 
         <div class="content__filter filter">
@@ -78,49 +81,30 @@
                 </button>
             </div>
             <div class="filter__active">
-                <div class="filtre active">
-                    <p class="text-s">Filtre</p>
-                    <img src="assets/icons/croix_blanc.svg" alt="">
-                </div>
-                <div class="filtre active">
-                    <p class="text-s">Filtre</p>
-                    <img src="assets/icons/croix_blanc.svg" alt="">
-                </div>
-                <div class="filtre active">
-                    <p class="text-s">Filtre</p>
-                    <img src="assets/icons/croix_blanc.svg" alt="">
-                </div>
-                <div class="filtre active">
-                    <p class="text-s">Filtre</p>
-                    <img src="assets/icons/croix_blanc.svg" alt="">
-                </div>
-                <div class="filtre active">
-                    <p class="text-s">Filtre</p>
-                    <img src="assets/icons/croix_blanc.svg" alt="">
-                </div>
+            </div>
 
             <div class="filter__nav" aria-hidden="true">
                 <div class="filter-nav__choix">
                     <div class="filter-nav__choix-item">
                         <h3>Genre</h3>
                         <ul class="filter-nav__list">
-                            <li class="filter-nav__filtre">
-                                <p class="text-s">Annimation</p>
+                            <li class="filter-nav__filtre" data-name="Animation">
+                                <p class="text-s">Animation</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Actions">
                                 <p class="text-s">Action</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="humour">
                                 <p class="text-s">Humour</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Esapce">
                                 <p class="text-s">Espace</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Serieux">
                                 <p class="text-s">Serieux</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
@@ -129,15 +113,15 @@
                     <div class="filter-nav__choix-item">
                         <h3>Horraire</h3>
                         <ul class="filter-nav__list">
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Matin">
                                 <p class="text-s">Matin</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Après-Midi">
                                 <p class="text-s">Après-Midi</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Soir">
                                 <p class="text-s">Soir</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
@@ -146,19 +130,19 @@
                     <div class="filter-nav__choix-item">
                         <h3>Lieux</h3>
                         <ul class="filter-nav__list">
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Tuilerie">
                                 <p class="text-s">Tuilerie</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Marazin">
                                 <p class="text-s">Marazin</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Rosemontoise">
                                 <p class="text-s">Rosemontoise</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
-                            <li class="filter-nav__filtre">
+                            <li class="filter-nav__filtre" data-name="Salle Conseil">
                                 <p class="text-s">Salle Conseil</p>
                                 <img src="assets/icons/plus.svg" alt="">
                             </li>
@@ -166,240 +150,239 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <article class="content__programme programme">
-            <div class="programme__j1 programme__card">
-                <div class="programme__card-title">
-                    <span class="programme__card-title-line"></span>
-                    <h3>Films d'annimation <br>Jour 1</h3>
+            <article class="content__programme programme">
+                <div class="programme__j1 programme__card">
+                    <div class="programme__card-title">
+                        <span class="programme__card-title-line"></span>
+                        <h3>Films d'annimation <br>Jour 1</h3>
+                    </div>
+                    <div class="programme__slider slider slider-prog-1">
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/le_voyage_de_chiiro.png" alt="">
+                                <h3>Le voyage de Chihiro</h3>
+                            </div>
+                            <p>horraire : 8h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/fool_time_job.png" alt="">
+                                <h3>(fool time) Job</h3>
+                            </div>
+                            <p>horraire : 10h30</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/letrange_noel_de_monsieur_jack.png" alt="">
+                                <h3>L'étrange noël de monsieur Jack</h3>
+                            </div>
+                            <p>horraire : 11h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/festival_1_card.png" alt="">
+                                <h3>Interventions sur le climat</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                    </div>
+                    <div class="slider__btn">
+                        <button class="left-prog-1"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                        <button class="right-prog-1"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+                    </div>
                 </div>
-                <div class="programme__slider slider slider-prog-1">
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/le_voyage_de_chiiro.png" alt="">
-                            <h3>Le voyage de Chihiro</h3>
-                        </div>
-                        <p>horraire : 8h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/fool_time_job.png" alt="">
-                            <h3>(fool time) Job</h3>
-                        </div>
-                        <p>horraire : 10h30</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/letrange_noel_de_monsieur_jack.png" alt="">
-                            <h3>L'étrange noël de monsieur Jack</h3>
-                        </div>
-                        <p>horraire : 11h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/festival_1_card.png" alt="">
-                            <h3>Interventions sur le climat</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                </div>
-                <div class="slider__btn">
-                    <button class="left-prog-1"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
-                    <button class="right-prog-1"><img src="assets/icons/defilement_droite.svg" alt=""></button>
-                </div>
-            </div>
 
-            <div class="programme__j2 programme__card">
-                <div class="programme__card-title">
-                    <span class="programme__card-title-line"></span>
-                    <h3>Films d'action <br>Jour 2</h3>
+                <div class="programme__j2 programme__card">
+                    <div class="programme__card-title">
+                        <span class="programme__card-title-line"></span>
+                        <h3>Films d'action <br>Jour 2</h3>
+                    </div>
+                    <div class="programme__slider slider slider-prog-2">
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/un_homme_en_colere.png" alt="">
+                                <h3>Un homme en colère</h3>
+                            </div>
+                            <p>horraire : 8h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/hypnotic.png" alt="">
+                                <h3>Hypnotic</h3>
+                            </div>
+                            <p>horraire : 10h15</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/rebel_ridge.png" alt="">
+                                <h3>Rebel Ridge</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/the_dark_knight.png" alt="">
+                                <h3>The Dark Knight</h3>
+                            </div>
+                            <p>horraire : 16h30</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                    </div>
+                    <div class="slider__btn">
+                        <button class="left-prog-2"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                        <button class="right-prog-2"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+                    </div>
                 </div>
-                <div class="programme__slider slider slider-prog-2">
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/un_homme_en_colere.png" alt="">
-                            <h3>Un homme en colère</h3>
-                        </div>
-                        <p>horraire : 8h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/hypnotic.png" alt="">
-                            <h3>Hypnotic</h3>
-                        </div>
-                        <p>horraire : 10h15</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/rebel_ridge.png" alt="">
-                            <h3>Rebel Ridge</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/the_dark_knight.png" alt="">
-                            <h3>The Dark Knight</h3>
-                        </div>
-                        <p>horraire : 16h30</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                </div>
-                <div class="slider__btn">
-                    <button class="left-prog-2"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
-                    <button class="right-prog-2"><img src="assets/icons/defilement_droite.svg" alt=""></button>
-                </div>
-            </div>
 
-            <div class="programme__j3 programme__card">
-                <div class="programme__card-title">
-                    <span class="programme__card-title-line"></span>
-                    <h3>Films sur l'espace <br>Jour 3</h3>
+                <div class="programme__j3 programme__card">
+                    <div class="programme__card-title">
+                        <span class="programme__card-title-line"></span>
+                        <h3>Films sur l'espace <br>Jour 3</h3>
+                    </div>
+                    <div class="programme__slider slider slider-prog-3">
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/interstellar.png" alt="">
+                                <h3>Interstellar</h3>
+                            </div>
+                            <p>horraire : 8h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/2001.png" alt="">
+                                <h3>2001, l'odyssée de l'espace</h3>
+                            </div>
+                            <p>horraire : 10h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/seul_sur_mars.png" alt="">
+                                <h3>Seul sur Mars</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/festival_1_card.png" alt="">
+                                <h3>Interventions sur le réchauffement climatique</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                    </div>
+                    <div class="slider__btn">
+                        <button class="left-prog-3"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                        <button class="right-prog-3"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+                    </div>
                 </div>
-                <div class="programme__slider slider slider-prog-3">
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/interstellar.png" alt="">
-                            <h3>Interstellar</h3>
-                        </div>
-                        <p>horraire : 8h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/2001.png" alt="">
-                            <h3>2001, l'odyssée de l'espace</h3>
-                        </div>
-                        <p>horraire : 10h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/seul_sur_mars.png" alt="">
-                            <h3>Seul sur Mars</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/festival_1_card.png" alt="">
-                            <h3>Interventions sur le réchauffement climatique</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                </div>
-                <div class="slider__btn">
-                    <button class="left-prog-3"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
-                    <button class="right-prog-3"><img src="assets/icons/defilement_droite.svg" alt=""></button>
-                </div>
-            </div>
 
-            <div class="programme__j4 programme__card">
-                <div class="programme__card-title">
-                    <span class="programme__card-title-line"></span>
-                    <h3>Films humoristique <br>Jour 4</h3>
+                <div class="programme__j4 programme__card">
+                    <div class="programme__card-title">
+                        <span class="programme__card-title-line"></span>
+                        <h3>Films humoristique <br>Jour 4</h3>
+                    </div>
+                    <div class="programme__slider slider slider-prog-4">
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/le_dine_de_con.png" alt="">
+                                <h3>Le dîner de con</h3>
+                            </div>
+                            <p>horraire : 8h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/astérix_et_obélix.png" alt="">
+                                <h3>Astérix et Obélix : Mission Cléopatre</h3>
+                            </div>
+                            <p>horraire : 9h30</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/un_ptit_truc_en_plus.png" alt="">
+                                <h3>Un p'tit truc en plus</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/oss117.png" alt="">
+                                <h3>OSS 117</h3>
+                            </div>
+                            <p>horraire : 16h30</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                    </div>
+                    <div class="slider__btn">
+                        <button class="left-prog-4"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                        <button class="right-prog-4"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+                    </div>
                 </div>
-                <div class="programme__slider slider slider-prog-4">
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/le_dine_de_con.png" alt="">
-                            <h3>Le dîner de con</h3>
-                        </div>
-                        <p>horraire : 8h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/astérix_et_obélix.png" alt="">
-                            <h3>Astérix et Obélix : Mission Cléopatre</h3>
-                        </div>
-                        <p>horraire : 9h30</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/un_ptit_truc_en_plus.png" alt="">
-                            <h3>Un p'tit truc en plus</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/oss117.png" alt="">
-                            <h3>OSS 117</h3>
-                        </div>
-                        <p>horraire : 16h30</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                </div>
-                <div class="slider__btn">
-                    <button class="left-prog-4"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
-                    <button class="right-prog-4"><img src="assets/icons/defilement_droite.svg" alt=""></button>
-                </div>
-            </div>
 
-            <div class="programme__j5 programme__card">
-                <div class="programme__card-title">
-                    <span class="programme__card-title-line"></span>
-                    <h3>Films sérieux <br>Jour 5</h3>
+                <div class="programme__j5 programme__card">
+                    <div class="programme__card-title">
+                        <span class="programme__card-title-line"></span>
+                        <h3>Films sérieux <br>Jour 5</h3>
+                    </div>
+                    <div class="programme__slider slider slider-prog-5">
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/sully.png" alt="">
+                                <h3>Sully</h3>
+                            </div>
+                            <p>horraire : 8h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/12_homme_en_colere.png" alt="">
+                                <h3>12 hommes en colère</h3>
+                            </div>
+                            <p>horraire : 10h45</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/shutter_island.png" alt="">
+                                <h3>Shutter island</h3>
+                            </div>
+                            <p>horraire : 14h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                        <div class="programme__slider__item slider__item">
+                            <div class="slider__item-film">
+                                <img src="assets/img/festival_2_card.png" alt="">
+                                <h3>Fête de fin de festival</h3>
+                            </div>
+                            <p>horraire : 17h00</p>
+                            <p>Lieux : Espace de la Tuilerie</p>
+                        </div>
+                    </div>
+                    <div class="slider__btn">
+                        <button class="left-prog-5"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
+                        <button class="right-prog-5"><img src="assets/icons/defilement_droite.svg" alt=""></button>
+                    </div>
                 </div>
-                <div class="programme__slider slider slider-prog-5">
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/sully.png" alt="">
-                            <h3>Sully</h3>
-                        </div>
-                        <p>horraire : 8h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/12_homme_en_colere.png" alt="">
-                            <h3>12 hommes en colère</h3>
-                        </div>
-                        <p>horraire : 10h45</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/shutter_island.png" alt="">
-                            <h3>Shutter island</h3>
-                        </div>
-                        <p>horraire : 14h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                    <div class="programme__slider__item slider__item">
-                        <div class="slider__item-film">
-                            <img src="assets/img/festival_2_card.png" alt="">
-                            <h3>Fête de fin de festival</h3>
-                        </div>
-                        <p>horraire : 17h00</p>
-                        <p>Lieux : Espace de la Tuilerie</p>
-                    </div>
-                </div>
-                <div class="slider__btn">
-                    <button class="left-prog-5"><img src="assets/icons/defilement_gauche.svg" alt=""></button>
-                    <button class="riight-prog-5"><img src="assets/icons/defilement_droite.svg" alt=""></button>
-                </div>
-            </div>
-        </article>
+            </article>
 
-        <a class="link__btn" href="">
-            Téléchargement
-            <img src="assets/icons/fleche.svg" alt="">
-        </a>
-     </section>
+            <a class="link__btn" href="">
+                Téléchargement
+                <img src="assets/icons/fleche.svg" alt="">
+            </a>
+    </section>
 
     <footer class="footer container">
         <img class="footer__logo" src="assets/icons/logo/logo.svg" alt="">
@@ -442,6 +425,7 @@
 
     <script src="src/js/scripts.js"></script>
     <script src="src/js/slider_prog.js"></script>
+    <script src="src/js/filtre.js"></script>
 </body>
 
 </html>
