@@ -1,0 +1,22 @@
+.content__films {
+    display: flex;
+    flex-direction: row !important;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.content__film-container{
+    width: 160px;
+}
+
+.content__film {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    img {
+        height: auto !important;
+        border-radius: 10px;
+    }
+}
