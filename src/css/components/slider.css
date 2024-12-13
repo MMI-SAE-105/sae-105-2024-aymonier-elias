@@ -7,6 +7,10 @@
     scroll-snap-type: x mandatory;
 }
 
+.slider__item {
+    width: 100%;
+}
+
 .slider__item-img {
     scroll-snap-align: center;
     display: flex;
